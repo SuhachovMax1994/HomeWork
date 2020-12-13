@@ -17,7 +17,7 @@
 		background: #ffefed;
 	}
 
-	th{
+	td{
 		padding: 5px;
 		font-size: 16px;
 		background: #d8e4ed;
@@ -25,7 +25,7 @@
 		color:#051b2b;
 		cursor: pointer;
 	}
-	th:hover{
+	td:hover{
 		color:#e8ecff;
 		background: #3d5a94;
 	}
