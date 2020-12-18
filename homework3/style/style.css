@@ -24,7 +24,7 @@ h1{
 	margin-left: 10px;
 	width:15px;
 	height: 10px;
-	filter: invert();
+	filter: invert(1);
 }
 
 .header__top-row{
@@ -207,7 +207,7 @@ h1{
 	padding-top: 5px;
 	width:23px;
 	height: 20px;
-	filter: invert();
+	filter: invert(1);
 	cursor: pointer;
 }
 
