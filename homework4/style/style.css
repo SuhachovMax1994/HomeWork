@@ -112,6 +112,6 @@ body{
 
 .btn-sign button:hover{
 	background: #ffbf00;
-	border:1px solid #ffbf00;
+	border:solid #ffbf00 1px;
 	color:white;
 }
