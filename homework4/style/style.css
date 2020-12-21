@@ -59,6 +59,7 @@ body{
 
 .icon-arrow{
 	margin-bottom: 5px;
+	cursor: pointer;
 }
 
 .btn-login{
@@ -81,9 +82,16 @@ body{
 }
 
 .title{
+	font-size: 72px;
+	
+	margin: 0;
+	font-weight: bold;
+	letter-spacing: 0.05em;
+	display: inline-block;
 	margin-left: 267px;
 	margin-top:195px;
 }
+
 
 .title-text{
 	margin-left: 310px;
