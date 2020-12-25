@@ -1,0 +1,243 @@
+body{
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	margin:0;
+	padding:0;
+	color:#fff;
+}
+
+.container{
+	width: 1110px;
+	margin: 0 auto;
+}
+
+header{
+	width: 100%;
+	height: 500px;
+	background: #ED4C5C;
+	padding-top:1px;
+}
+.header{
+	display: flex;
+}
+.header-title {
+  margin-top: 121px;
+  width: 445px;
+  height: 107px;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+  color: #FFFFFF; 
+  margin-bottom: 21px;
+}
+
+.header-text{
+width: 445px;
+height: 64px;
+font-size: 14px;
+line-height: 140%;
+text-align: justify;
+margin:0;
+margin-bottom: 40px;
+}
+
+.header-picture{
+	margin:94px 51px 0 81px;
+}
+
+.body{
+	display: flex;
+}
+
+.body__left-box{
+margin:117px 97px 268px 11px;
+width: 445px;
+height: 160px;
+}
+
+.body-title{
+width: 445px;
+height: 107px;
+margin:0;
+font-weight: 600;
+font-size: 36px;
+line-height: 43px;
+color: #000000;
+}
+
+.body-text{
+width: 434px;
+height: 64px;
+font-size: 14px;
+line-height: 140%;
+text-align: justify;
+margin:0;
+color: #000000;
+}
+
+.input-name{
+margin-top:117px;
+width: 255px;
+height: 60px;
+border: 1px solid #333333;
+border-radius: 6px;
+font-size: 16px;
+line-height: 19px;
+box-sizing: border-box;
+padding: 21px 143px 20px 31px;
+color: rgba(19, 39, 67, 0.5);
+}
+
+.input-name:first-child{
+margin-right: 27px;
+}
+
+.input-phone{
+margin-top:24px;
+width: 540px;
+height: 60px;
+border: 1px solid #333333;
+border-radius: 6px;
+font-size: 16px;
+line-height: 19px;
+box-sizing: border-box;
+padding: 21px 398px 20px 31px;
+color: rgba(19, 39, 67, 0.5);	
+}
+
+.input-server{
+position: absolute;
+margin-top:24px;
+width: 540px;
+height: 60px;
+border: 1px solid #333333;
+border-radius: 6px;
+font-size: 16px;
+line-height: 19px;
+box-sizing: border-box;
+padding: 21px 398px 20px 31px;
+color: rgba(19, 39, 67, 0.5);
+}
+
+.icon-arrow{
+position: relative;
+padding-top: 50px;
+padding-bottom: 25px;
+margin-left: 500px;
+cursor: pointer;
+}
+
+.button{
+margin-top: 27px;
+width: 160px;
+height: 50px;
+background: #ED4C5C;
+border: 1.5px solid #ED4C5C;
+border-radius: 6px;
+color:white;
+line-height: 17px;
+
+margin-bottom: 123px;
+cursor: pointer;
+outline: none;
+transition:1s;
+}
+
+.button:hover{
+	background: #285ce0;
+	color:white;
+	border:none;
+	transition: 1s;
+}
+
+footer{
+	background: #FAFAFA;
+	padding-top: 1px;
+	height: 435px;
+}
+
+.footer__info-box{
+margin-top: 84px;
+display: flex;
+font-size: 18px;
+color: #101010;
+}
+
+ .info__box-item:first-child{
+ 	margin-right: 219px;
+ 	margin-left:1px;
+ 	margin-top: none;
+ }
+
+ .info__box-item:nth-child(2){
+ 	margin-right: 217px;
+ }
+
+ .info__box-item:nth-child(3){
+ 	margin-right: 187px;
+}
+.info-items{
+	display: flex;
+}
+
+.info-items p:first-child{
+margin-left:1px;
+width: 254px;
+height: 54px;
+font-size: 12px;
+line-height: 150%;
+color: #101010;
+margin-bottom: 129px;
+}
+
+.info-items p:nth-child(2){
+margin-left:30px;
+width: 254px;
+height: 114px;
+font-size: 12px;
+line-height: 160%;
+color: #101010;
+}
+
+.info-items div p:first-child{
+margin-left:30px;
+width: 122px;
+height: 14px;
+font-size: 12px;
+margin-bottom: 0;
+line-height: 14px;
+color: #101010;
+}
+
+.info-items div p:nth-child(2){
+margin-top: 11px;
+margin-left:30px;
+width: 96px;
+height: 14px;
+font-size: 12px;
+line-height: 160%;
+line-height: 14px;
+color: #101010;
+margin-bottom: 20px;
+}
+
+.info-items div img:last-child{
+margin-left: 30px;
+}
+
+.master-visa__card{
+widows: 216px;
+height: 31px;
+margin-left: 172px;
+margin-top:9px;
+}
+
+.down-text{
+width: 155px;
+height: 14px;
+margin-left: 75px;
+margin-bottom: 86px;
+font-size: 12px;
+line-height: 14px;
+color: #101010;
+}
