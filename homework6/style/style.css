@@ -689,9 +689,15 @@ margin:125px 92px 40px 62px;
   margin-top: 93px;
 }
 
+.footer-bottom img{
+  right: 11vw;
+  bottom: 7vw;
+  position: fixed;
+  opacity: 0.5;
+}
+
 .footer-bottom img:hover{
   border-radius: 50px;
   transform: scale(1.2);
-  opacity: 0.7;
-  
+  opacity: 1;
 }
