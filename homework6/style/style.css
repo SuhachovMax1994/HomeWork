@@ -23,7 +23,8 @@ hr{
 }
 
 .wrapper{
-  width:1600px;
+  width:1248px;
+  margin:0 auto;
 }
 
 .header{
@@ -31,8 +32,6 @@ hr{
   width: 1248px;
   margin:0 auto;
   margin-top: 50px;
-  margin-left: 240px;
-  margin-right: 112px;
 }
 
 .header__top{
@@ -173,7 +172,7 @@ h1{
   height: 560px;
   background: rgba(240, 99, 184, 0.15);
   border-radius: 50px;
-  margin:99px 243px 110px 240px;
+  margin:99px 243px 110px 0;
   display: flex;
 }
 
@@ -211,7 +210,6 @@ margin:125px 92px 40px 62px;
 .features__section-columns{
   display: flex;
   width: 1136px;
-  margin-left:239px;
   justify-content: space-between;
   flex-wrap: wrap;
 }
@@ -324,8 +322,6 @@ margin:125px 92px 40px 62px;
 
 .testimonials{
   width: 1118px;
-  margin-left:242px;
-  width: 1118px;
   height: 709px;
   background: #9C69E2;
   border-radius: 50px;
@@ -426,7 +422,6 @@ margin:125px 92px 40px 62px;
 
 .footer-container{
   width: 1117px;
-  margin: 0 auto;
 }
 
 .footer-top{
