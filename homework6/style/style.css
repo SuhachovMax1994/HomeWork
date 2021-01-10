@@ -694,23 +694,7 @@ margin:125px 92px 40px 62px;
   bottom: 7vw;
   position: fixed;
   opacity: 0.5;
-  -webkit-animation: pulsing 2s infinite;
   animation: pulsing 2s infinite;
-}
-
-@-webkit-keyframes pulsing {
-  0% {
-    -webkit-transform: scale(0.5, 0.5);
-    transform: scale(0.5, 0.5)
-  }
-  50% {
-    -webkit-transform: scale(1.0, 1.0);
-    transform: scale(1.0, 1.0);
-  }
-  100% {
-    -webkit-transform: scale(0.5, 0.5);
-    transform: scale(0.5, 0.5);
-  }
 }
 
 @keyframes pulsing {
@@ -719,6 +703,8 @@ margin:125px 92px 40px 62px;
   }
   50% {
     transform: scale(1.0, 1.0);
+    opacity: 1;
+
   }
   100% {
     transform: scale(0.5, 0.5);
