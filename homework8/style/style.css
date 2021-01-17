@@ -497,7 +497,7 @@ h1{
   margin: 0;
 }
 
-.counter-text span{
+.counter-text p{
   width: 80px;
   height: 48px;
   font-family: Roboto;
@@ -506,12 +506,14 @@ h1{
   font-size: 16px;
   line-height: 24px;
   color: #000000;
-  margin-bottom: 5px;
-  margin-left: 11px;
 }
 
-.counter-text span:last-child{
-  margin-left: 16px;
+.left-counter p{
+  margin-left: 13px;
+}
+
+.right-counter p{
+  margin-left: 15px;
 }
 
 .statistic{
