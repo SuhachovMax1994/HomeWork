@@ -1,0 +1,216 @@
+.content{
+    background-image: url(https://img5.goodfon.ru/wallpaper/nbig/5/34/gunship-gunship-synth-retrowave-synthwave-fon-new-retro-wave.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+.burger{
+    margin:25px 80px 100px 80px;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    cursor: pointer;
+    line-height: 0px;
+    height: 80px;
+}
+
+.burger:active{
+    transform: scale(0.9);
+}
+
+span{
+    height: 0px;
+    color: red;
+    padding: 0;
+    margin-bottom: 40px;
+    font-size: 50px;
+    user-select: none;
+}
+.one-sword{
+    color:#597ec7;
+}
+.two-sword{
+    height: 0px;
+    color: #0db7b7;
+    padding: 0;
+    font-size: 50px;
+}
+
+.three-sword{
+    color: #ffc00d;
+    font-size: 50px;
+}
+
+#btn:checked~.burger>.one-sword {
+    display:none;
+}
+
+#btn:checked~.burger>.two-sword {
+    transform: rotate(40deg);
+    position: relative;
+    top: 45px;
+    font-size: 63px;
+    transition: 0.2s;
+    color:#19ff00;
+    box-shadow: -4px 25px 20px 5px rgba(7,204,0,0.78)
+}
+
+#btn:checked~.burger>.three-sword {
+    color: white;
+    transform: rotate(-40deg);
+    right: 35px;
+    position: relative;
+    font-size: 63px;
+    transition: 0.2s;
+    color:#19ff00; 
+    box-shadow: -4px 25px 20px 5px rgba(7,204,0,0.78)
+}
+
+#btn:checked~.burger {
+    margin-top: 25px;
+    
+}
+
+input{
+    margin-bottom: 30px;
+    visibility: hidden;
+}
+
+.planet{
+    border-radius: 200px;
+    width: 100px;
+
+}
+
+.planets div:first-child, .planets div:last-child{
+    visibility: hidden;
+}
+
+#btn:checked~.planets div:first-child{
+    visibility: visible;    
+}
+
+#btn:checked~.planets div:last-child{
+    visibility: visible;    
+}
+
+.planets{
+    display: flex;
+    user-select: none;
+    justify-content: center;
+}
+.planets div{
+    display: flex;
+    align-items: flex-end;
+    transition: 1s;
+    height: 400px;
+}
+
+.planets div:hover{
+    transform: scale(1.2);
+}
+
+.planets div:active{
+    transform: scale(0.8);
+}
+
+.shadows{
+    width: 700px;
+    display: flex;
+    margin:0 auto;
+}
+
+.shadows span{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    color:white;
+    box-shadow: 
+0px 65px 30px 5px rgb(15 243 243 / 39%);
+}
+
+.first-shadow, .last-shadow{
+    visibility: hidden;
+}
+
+#btn:checked~.planets div:first-child{
+    animation: planet-left 1s infinite;
+}
+
+#btn:checked~.planets div:last-child{
+    animation: planet-right 1s infinite .5s;
+}
+
+#btn:checked~.shadows span:first-child{
+    animation: shadow-left 1s infinite;
+    visibility: visible;
+}
+
+#btn:checked~.shadows span:last-child{
+    animation: shadow-right 1s infinite .5s;
+    visibility: visible;
+}
+
+@keyframes planet-left {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(90deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+
+
+@keyframes planet-right {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(-90deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes shadow-left {
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-120px);
+    }
+    50% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+
+@keyframes shadow-right {
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(120px);
+    }
+    50% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
